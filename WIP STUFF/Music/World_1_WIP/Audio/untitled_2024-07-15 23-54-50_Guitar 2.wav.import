@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clc1b6hummy13"
+path="res://.godot/imported/untitled_2024-07-15 23-54-50_Guitar 2.wav-7977881422b46fb48f5b3f52ab585bb6.sample"
+
+[deps]
+
+source_file="res://WIP STUFF/Music/World_1_WIP/Audio/untitled_2024-07-15 23-54-50_Guitar 2.wav"
+dest_files=["res://.godot/imported/untitled_2024-07-15 23-54-50_Guitar 2.wav-7977881422b46fb48f5b3f52ab585bb6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
