@@ -68,9 +68,9 @@ func listen_keystrokes():
 		print(keystrokes)
 		cast_spell()
 func cast_spell():
-	if keystrokes.size() > 0 and keystrokes.size() < 6:
+	if keystrokes.size() > 0 and keystrokes.size() <= 6:
 		print("Casting spell with keystrokes: ", keystrokes)
-		keystrokes.clear()
+		#keystrokes.clear()
 	if keystrokes[0] == "Up" and keystrokes[1] == "Up":
 		print("Casting Fireball!")
 		shoot_fireball()
@@ -82,8 +82,8 @@ func cast_spell():
 func shoot_fireball():
 		var fireball = fireball_scene.instantiate()
 		fireball.position = position
-		fireball.direction = $AnimatedSprite2D * Vector2.RIGHT  # Assuming the player faces right with positive scale
-		fireball.speed = Vector2(500, 0) # Set the initial velocity of the fireball
+		#fireball.direction = $AnimatedSprite2D * Vector2.RIGHT  # Assuming the player faces right with positive scale
+		fireball.velocity = Vector2(500, 0) # Set the initial velocity of the fireball
 		get_parent().add_child(fireball)
 		print("Fireball shot!")
 #TODO Add the fireball to the scene
